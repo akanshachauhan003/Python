@@ -1,0 +1,15 @@
+guess_bird = input(' "y" for yes or "n" for no ' )
+if guess_bird.lower() == "n":
+    print("guess 2")
+    bird_type = input(' "a" for no or "b" for yes')
+    if bird_type.lower() == "a":
+        print("guess 3")
+    else:
+        print("yes 2nd try")
+    bird_check = input(' "c" for no or "d" for yes')
+    if bird_check.lower() == "c":
+        print("sorry out of tries")
+    else:
+        print("yes 3rd try")
+else:
+    print("yes 1st try")
